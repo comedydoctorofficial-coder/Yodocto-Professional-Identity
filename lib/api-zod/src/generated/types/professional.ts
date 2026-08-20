@@ -38,6 +38,17 @@ export interface Professional {
   education: Education[];
   experience: Experience[];
   interests?: string[];
+  certifications?: string[];
+  /** @nullable */
+  professionalRegistration?: string | null;
+  /** @nullable */
+  practiceInformation?: string | null;
+  /** @nullable */
+  resumeUrl?: string | null;
+  /** @nullable */
+  resumeFileName?: string | null;
+  /** @nullable */
+  resumeText?: string | null;
   qrValue: string;
   createdAt: string;
 }

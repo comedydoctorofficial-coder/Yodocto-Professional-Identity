@@ -202,6 +202,14 @@ components:
         interests:
           type: array
           items: { type: string }
+        certifications:
+          type: array
+          items: { type: string }
+        professionalRegistration: { type: ["string", "null"] }
+        practiceInformation: { type: ["string", "null"] }
+        resumeUrl: { type: ["string", "null"] }
+        resumeFileName: { type: ["string", "null"] }
+        resumeText: { type: ["string", "null"] }
         qrValue: { type: string }
         createdAt: { type: string }
     ProfessionalInput:
@@ -227,6 +235,14 @@ components:
         interests:
           type: array
           items: { type: string }
+        certifications:
+          type: array
+          items: { type: string }
+        professionalRegistration: { type: string }
+        practiceInformation: { type: string }
+        resumeUrl: { type: string }
+        resumeFileName: { type: string }
+        resumeText: { type: string }
     ProfessionalUpdate:
       type: object
       properties:
@@ -249,6 +265,14 @@ components:
         interests:
           type: array
           items: { type: string }
+        certifications:
+          type: array
+          items: { type: string }
+        professionalRegistration: { type: string }
+        practiceInformation: { type: string }
+        resumeUrl: { type: string }
+        resumeFileName: { type: string }
+        resumeText: { type: string }
         status: { type: string, enum: [open, selective, unavailable] }
     Activity:
       type: object

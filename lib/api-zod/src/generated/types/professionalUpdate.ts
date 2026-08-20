@@ -24,5 +24,11 @@ export interface ProfessionalUpdate {
   education?: Education[];
   experience?: Experience[];
   interests?: string[];
+  certifications?: string[];
+  professionalRegistration?: string;
+  practiceInformation?: string;
+  resumeUrl?: string;
+  resumeFileName?: string;
+  resumeText?: string;
   status?: ProfessionalUpdateStatus;
 }

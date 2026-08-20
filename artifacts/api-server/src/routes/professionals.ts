@@ -47,6 +47,9 @@ function calculateCompletion(input: {
   education?: unknown[];
   experience?: unknown[];
   interests?: string[];
+  certifications?: string[];
+  professionalRegistration?: string | null;
+  practiceInformation?: string | null;
 }) {
   const checks = [
     Boolean(input.name),
@@ -124,6 +127,12 @@ router.post("/professionals", async (req, res) => {
     education: input.education ?? [],
     experience: input.experience ?? [],
     interests: input.interests ?? [],
+    certifications: input.certifications ?? [],
+    professionalRegistration: input.professionalRegistration ?? null,
+    practiceInformation: input.practiceInformation ?? null,
+    resumeUrl: input.resumeUrl ?? null,
+    resumeFileName: input.resumeFileName ?? null,
+    resumeText: input.resumeText ?? null,
     qrValue: `/profile/${slug}`,
   };
   const [created] = await db.insert(professionalsTable).values(row).returning();
@@ -186,6 +195,12 @@ router.patch("/professionals/:id", async (req, res) => {
     ...(input.education === undefined ? {} : { education: input.education }),
     ...(input.experience === undefined ? {} : { experience: input.experience }),
     ...(input.interests === undefined ? {} : { interests: input.interests }),
+    ...(input.certifications === undefined ? {} : { certifications: input.certifications }),
+    ...(input.professionalRegistration === undefined ? {} : { professionalRegistration: input.professionalRegistration }),
+    ...(input.practiceInformation === undefined ? {} : { practiceInformation: input.practiceInformation }),
+    ...(input.resumeUrl === undefined ? {} : { resumeUrl: input.resumeUrl }),
+    ...(input.resumeFileName === undefined ? {} : { resumeFileName: input.resumeFileName }),
+    ...(input.resumeText === undefined ? {} : { resumeText: input.resumeText }),
     ...(input.status === undefined ? {} : { status: input.status }),
   };
   const merged = { ...current, ...values };

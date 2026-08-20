@@ -54,6 +54,12 @@ export const ListProfessionalsResponseItem = zod.object({
   "dates": zod.string()
 })),
   "interests": zod.array(zod.string()).optional(),
+  "certifications": zod.array(zod.string()).optional(),
+  "professionalRegistration": zod.string().nullish(),
+  "practiceInformation": zod.string().nullish(),
+  "resumeUrl": zod.string().nullish(),
+  "resumeFileName": zod.string().nullish(),
+  "resumeText": zod.string().nullish(),
   "qrValue": zod.string(),
   "createdAt": zod.string()
 })
@@ -90,7 +96,13 @@ export const CreateProfessionalBody = zod.object({
   "organization": zod.string(),
   "dates": zod.string()
 })).optional(),
-  "interests": zod.array(zod.string()).optional()
+  "interests": zod.array(zod.string()).optional(),
+  "certifications": zod.array(zod.string()).optional(),
+  "professionalRegistration": zod.string().optional(),
+  "practiceInformation": zod.string().optional(),
+  "resumeUrl": zod.string().optional(),
+  "resumeFileName": zod.string().optional(),
+  "resumeText": zod.string().optional()
 })
 
 export const createProfessionalResponseScoreMin = 0;
@@ -127,6 +139,12 @@ export const CreateProfessionalResponse = zod.object({
   "dates": zod.string()
 })),
   "interests": zod.array(zod.string()).optional(),
+  "certifications": zod.array(zod.string()).optional(),
+  "professionalRegistration": zod.string().nullish(),
+  "practiceInformation": zod.string().nullish(),
+  "resumeUrl": zod.string().nullish(),
+  "resumeFileName": zod.string().nullish(),
+  "resumeText": zod.string().nullish(),
   "qrValue": zod.string(),
   "createdAt": zod.string()
 })
@@ -173,6 +191,12 @@ export const GetProfessionalResponse = zod.object({
   "dates": zod.string()
 })),
   "interests": zod.array(zod.string()).optional(),
+  "certifications": zod.array(zod.string()).optional(),
+  "professionalRegistration": zod.string().nullish(),
+  "practiceInformation": zod.string().nullish(),
+  "resumeUrl": zod.string().nullish(),
+  "resumeFileName": zod.string().nullish(),
+  "resumeText": zod.string().nullish(),
   "qrValue": zod.string(),
   "createdAt": zod.string()
 })
@@ -213,6 +237,12 @@ export const UpdateProfessionalBody = zod.object({
   "dates": zod.string()
 })).optional(),
   "interests": zod.array(zod.string()).optional(),
+  "certifications": zod.array(zod.string()).optional(),
+  "professionalRegistration": zod.string().optional(),
+  "practiceInformation": zod.string().optional(),
+  "resumeUrl": zod.string().optional(),
+  "resumeFileName": zod.string().optional(),
+  "resumeText": zod.string().optional(),
   "status": zod.enum(['open', 'selective', 'unavailable']).optional()
 })
 
@@ -250,6 +280,12 @@ export const UpdateProfessionalResponse = zod.object({
   "dates": zod.string()
 })),
   "interests": zod.array(zod.string()).optional(),
+  "certifications": zod.array(zod.string()).optional(),
+  "professionalRegistration": zod.string().nullish(),
+  "practiceInformation": zod.string().nullish(),
+  "resumeUrl": zod.string().nullish(),
+  "resumeFileName": zod.string().nullish(),
+  "resumeText": zod.string().nullish(),
   "qrValue": zod.string(),
   "createdAt": zod.string()
 })
@@ -296,6 +332,12 @@ export const GetProfessionalBySlugResponse = zod.object({
   "dates": zod.string()
 })),
   "interests": zod.array(zod.string()).optional(),
+  "certifications": zod.array(zod.string()).optional(),
+  "professionalRegistration": zod.string().nullish(),
+  "practiceInformation": zod.string().nullish(),
+  "resumeUrl": zod.string().nullish(),
+  "resumeFileName": zod.string().nullish(),
+  "resumeText": zod.string().nullish(),
   "qrValue": zod.string(),
   "createdAt": zod.string()
 })

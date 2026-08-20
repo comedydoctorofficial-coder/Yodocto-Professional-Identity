@@ -27,6 +27,12 @@ export const professionalsTable = pgTable("professionals", {
     .notNull()
     .default(sql`'[]'::jsonb`),
   interests: jsonb("interests").$type<string[]>().notNull().default(sql`'[]'::jsonb`),
+  certifications: jsonb("certifications").$type<string[]>().notNull().default(sql`'[]'::jsonb`),
+  professionalRegistration: text("professional_registration"),
+  practiceInformation: text("practice_information"),
+  resumeUrl: text("resume_url"),
+  resumeFileName: text("resume_file_name"),
+  resumeText: text("resume_text"),
   qrValue: text("qr_value").notNull(),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });

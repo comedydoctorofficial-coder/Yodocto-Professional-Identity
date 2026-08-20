@@ -1,0 +1,1 @@
+- [Identity profile roadmap](identity-profile-roadmap.md) — the MVP now has editable profile data and reviewable resume extraction; auth and protected storage remain separate production follow-ups.
