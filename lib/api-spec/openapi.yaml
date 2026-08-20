@@ -10,6 +10,8 @@ servers:
 tags:
   - name: health
     description: Health operations
+  - name: professionals
+    description: Professional identity and profiles
 paths:
   /healthz:
     get:
@@ -24,7 +26,116 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /professionals:
+    get:
+      operationId: listProfessionals
+      tags: [professionals]
+      summary: List public professionals
+      responses:
+        "200":
+          description: Public professional profiles
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Professional"
+    post:
+      operationId: createProfessional
+      tags: [professionals]
+      summary: Create a professional identity
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ProfessionalInput"
+      responses:
+        "201":
+          description: Created professional
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Professional"
+  /professionals/{id}:
+    get:
+      operationId: getProfessional
+      tags: [professionals]
+      summary: Get a professional by Yodocto ID
+      parameters:
+        - $ref: "#/components/parameters/ProfessionalId"
+      responses:
+        "200":
+          description: Professional profile
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Professional"
+        "404":
+          description: Professional not found
+    patch:
+      operationId: updateProfessional
+      tags: [professionals]
+      summary: Update a professional profile
+      parameters:
+        - $ref: "#/components/parameters/ProfessionalId"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ProfessionalUpdate"
+      responses:
+        "200":
+          description: Updated professional
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Professional"
+  /professionals/slug/{slug}:
+    get:
+      operationId: getProfessionalBySlug
+      tags: [professionals]
+      summary: Get a professional by public profile slug
+      parameters:
+        - name: slug
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Professional profile
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Professional"
+        "404":
+          description: Professional not found
+  /professionals/{id}/activity:
+    get:
+      operationId: getProfessionalActivity
+      tags: [professionals]
+      summary: Get recent identity activity
+      parameters:
+        - $ref: "#/components/parameters/ProfessionalId"
+      responses:
+        "200":
+          description: Identity activity
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Activity"
 components:
+  parameters:
+    ProfessionalId:
+      name: id
+      in: path
+      required: true
+      schema:
+        type: string
   schemas:
     HealthStatus:
       type: object
@@ -33,4 +144,118 @@ components:
           type: string
       required:
         - status
+    Education:
+      type: object
+      required: [degree, institution, year]
+      properties:
+        degree: { type: string }
+        institution: { type: string }
+        year: { type: string }
+    Experience:
+      type: object
+      required: [role, organization, dates]
+      properties:
+        role: { type: string }
+        organization: { type: string }
+        dates: { type: string }
+    Professional:
+      type: object
+      required:
+        - id
+        - name
+        - slug
+        - profession
+        - location
+        - initials
+        - score
+        - completion
+        - status
+        - summary
+        - skills
+        - education
+        - experience
+        - qrValue
+        - createdAt
+      properties:
+        id: { type: string }
+        name: { type: string }
+        slug: { type: string }
+        profession: { type: string }
+        location: { type: string }
+        initials: { type: string }
+        imageUrl: { type: ["string", "null"] }
+        company: { type: ["string", "null"] }
+        companyLogoUrl: { type: ["string", "null"] }
+        score: { type: number, minimum: 0, maximum: 100 }
+        completion: { type: number, minimum: 0, maximum: 100 }
+        status: { type: string, enum: [open, selective, unavailable] }
+        summary: { type: string }
+        skills:
+          type: array
+          items: { type: string }
+        education:
+          type: array
+          items: { $ref: "#/components/schemas/Education" }
+        experience:
+          type: array
+          items: { $ref: "#/components/schemas/Experience" }
+        interests:
+          type: array
+          items: { type: string }
+        qrValue: { type: string }
+        createdAt: { type: string }
+    ProfessionalInput:
+      type: object
+      required: [name, profession, location]
+      properties:
+        name: { type: string, minLength: 2 }
+        profession: { type: string, minLength: 2 }
+        location: { type: string, minLength: 2 }
+        company: { type: string }
+        summary: { type: string }
+        imageUrl: { type: string }
+        companyLogoUrl: { type: string }
+        skills:
+          type: array
+          items: { type: string }
+        education:
+          type: array
+          items: { $ref: "#/components/schemas/Education" }
+        experience:
+          type: array
+          items: { $ref: "#/components/schemas/Experience" }
+        interests:
+          type: array
+          items: { type: string }
+    ProfessionalUpdate:
+      type: object
+      properties:
+        name: { type: string, minLength: 2 }
+        profession: { type: string, minLength: 2 }
+        location: { type: string, minLength: 2 }
+        company: { type: string }
+        summary: { type: string }
+        imageUrl: { type: string }
+        companyLogoUrl: { type: string }
+        skills:
+          type: array
+          items: { type: string }
+        education:
+          type: array
+          items: { $ref: "#/components/schemas/Education" }
+        experience:
+          type: array
+          items: { $ref: "#/components/schemas/Experience" }
+        interests:
+          type: array
+          items: { type: string }
+        status: { type: string, enum: [open, selective, unavailable] }
+    Activity:
+      type: object
+      required: [id, label, detail, date]
+      properties:
+        id: { type: string }
+        label: { type: string }
+        detail: { type: string }
+        date: { type: string }
 

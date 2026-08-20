@@ -1,0 +1,2602 @@
+# MASTER PROMPT — BUILD YODOCTO AI
+
+## Production-Ready Healthcare Career, Identity & Workforce Platform for India
+
+### ROLE
+
+Act as a combined:
+
+* Senior Product Architect
+* Full-Stack Software Engineer
+* AI/ML Architect
+* UX/UI Designer
+* Healthcare Technology Strategist
+* Growth Product Manager
+* SEO Architect
+* Database Architect
+* Cybersecurity & Privacy Engineer
+* Marketplace Architect
+* Analytics Engineer
+* Mobile App Developer
+* SaaS Architect
+* DevOps Engineer
+
+Your task is to design and build a **production-ready Yodocto AI platform**, including the website, mobile application, backend, database, AI systems, professional ecosystem, employer marketplace, administration system, analytics, growth engine and scalable technical architecture.
+
+Do not build Yodocto as a conventional job board.
+
+Build it as an **AI-powered healthcare professional identity, career and workforce network**.
+
+---
+
+# 1. BRAND
+
+## Product
+
+**Yodocto AI**
+
+## Positioning
+
+**Yodocto — AI Career & Workforce Platform for Every Healthcare Professional.**
+
+## Core philosophy
+
+> You don't need to be looking for a job to need Yodocto.
+
+Yodocto should provide value when there are:
+
+* 0 jobs
+* 100 jobs
+* 10,000 jobs
+* 100,000 jobs
+
+The user should never feel:
+
+**Sign up → Search jobs → No jobs → Leave**
+
+Instead create:
+
+**Sign up → Profile → Career Score → Career Passport → AI Career Assistant → Career Radar → Learning → Community → Alerts → Opportunities**
+
+---
+
+# 2. BUSINESS OBJECTIVE
+
+The first objective is:
+
+**Get healthcare professionals onto Yodocto.**
+
+The second:
+
+**Make them complete their professional profile.**
+
+The third:
+
+**Give them enough recurring value to return before they need a job.**
+
+The fourth:
+
+**Use the professional network to attract hospitals and healthcare employers.**
+
+The fifth:
+
+**Build India's healthcare workforce network.**
+
+Long-term ambition:
+
+> Every healthcare professional in India should have a Yodocto profile.
+
+---
+
+# 3. CORE USER VALUE PROPOSITION
+
+Primary acquisition message:
+
+**Are you a healthcare professional? Create your free Yodocto Professional Profile.**
+
+Secondary message:
+
+**Upload your CV. Let AI build your healthcare career profile in seconds.**
+
+Homepage headline:
+
+**Your Healthcare Career. One Intelligent Platform.**
+
+Subheadline:
+
+**Create your professional Yodocto profile, build your career passport with AI, discover opportunities, and get personalised career guidance — all in one place.**
+
+Primary CTA:
+
+**Create My Free Profile**
+
+Secondary CTA:
+
+**I'm a Healthcare Employer**
+
+Trust message:
+
+**Built for healthcare professionals across India.**
+
+Final CTA:
+
+**Your healthcare career deserves a smarter platform.**
+
+---
+
+# 4. TARGET PROFESSIONALS
+
+Registration must support all major healthcare categories.
+
+Profession selector:
+
+1. Doctor
+2. Nurse
+3. Pharmacist
+4. Dentist
+5. Physiotherapist
+6. Paramedic
+7. Medical Laboratory Professional
+8. Radiology Professional
+9. Optometrist
+10. Occupational Therapist
+11. Speech & Language Professional
+12. Psychologist / Mental Health Professional
+13. Public Health Professional
+14. Healthcare Administrator
+15. Healthcare Manager
+16. Medical Coder
+17. Life Science Professional
+18. Healthcare Researcher
+19. Healthcare AI / Health-Tech Professional
+20. Student / Trainee
+21. Other Healthcare Professional
+
+Allow:
+
+* Multiple professional interests
+* Primary profession
+* Secondary profession
+* Career interests
+* Current role
+* Desired future role
+
+Never restrict Yodocto to doctors.
+
+---
+
+# 5. EMPLOYER USERS
+
+Support:
+
+* Hospitals
+* Clinics
+* Nursing homes
+* Diagnostic centres
+* Medical colleges
+* NGOs
+* Healthcare startups
+* Corporate healthcare organisations
+* Health-tech companies
+* Research organisations
+* Healthcare staffing organisations
+
+Employer onboarding must be separate from professional onboarding.
+
+---
+
+# 6. ONE-MINUTE PROFESSIONAL ONBOARDING
+
+Target:
+
+**Initial profile creation under 60 seconds.**
+
+Do not ask 30–50 questions during registration.
+
+Use progressive profiling.
+
+## Step 1
+
+Mobile number or email.
+
+Implement:
+
+* OTP verification
+* Email verification
+* Duplicate account detection
+* Consent
+* Privacy acceptance
+
+## Step 2
+
+Profession.
+
+## Step 3
+
+City/location.
+
+## Step 4
+
+Experience:
+
+* Student
+* Fresher
+* 1–3 years
+* 3–5 years
+* 5–10 years
+* 10+ years
+
+## Step 5
+
+Career interests:
+
+* Permanent jobs
+* Locum
+* On-call
+* Flexible shifts
+* Remote opportunities
+* Healthcare AI
+* Health-tech
+* Management
+* Research
+* Higher education
+* International opportunities
+
+## Step 6
+
+Optional CV upload.
+
+CTA:
+
+**Upload CV & Build My Profile with AI**
+
+---
+
+# 7. AI PROFILE BUILDER
+
+This must be one of Yodocto's strongest differentiators.
+
+Allow uploads of:
+
+* CV
+* Resume
+* Existing professional profile
+* Certificates
+* Education documents where appropriate
+
+AI should extract:
+
+* Name
+* Profession
+* Education
+* Institutions
+* Experience
+* Employers
+* Job titles
+* Specialisation
+* Skills
+* Certifications
+* Achievements
+* Publications
+* Career interests
+* Preferred locations
+* Work preferences
+
+AI must never invent:
+
+* Qualifications
+* Registrations
+* Employment
+* Certifications
+* Clinical experience
+* Professional credentials
+
+Every AI-generated profile must display:
+
+**AI-generated draft — please review before publishing.**
+
+Allow the user to:
+
+* Accept
+* Reject
+* Edit
+* Delete
+* Add information
+* Re-run extraction
+
+Store source provenance where technically possible.
+
+---
+
+# 8. PROFESSIONAL PROFILE
+
+Create a premium professional profile.
+
+Example:
+
+**Dr. Amit Kumar**
+
+Healthcare Professional
+
+India
+
+### Career Score
+
+**86/100**
+
+### Professional Summary
+
+AI-generated but editable.
+
+### Education
+
+Qualifications and institutions.
+
+### Experience
+
+Employer, role, dates and responsibilities.
+
+### Skills
+
+Skill tags.
+
+### Certifications
+
+Certificate, issuing organisation, date and expiry.
+
+### Specialisations
+
+Relevant professional areas.
+
+### Career Interests
+
+* Jobs
+* On-call
+* Locum
+* Healthcare AI
+* Remote
+* Management
+* Research
+
+### Availability
+
+* Open to opportunities
+* Open to selected opportunities
+* Not currently looking
+
+### Profile completion
+
+**86% Complete**
+
+Recommendation:
+
+**Complete your profile to improve AI recommendations.**
+
+---
+
+# 9. PUBLIC YODOCTO PROFILE
+
+Give every professional a unique profile URL.
+
+Example:
+
+`yodocto.com/profile/name`
+
+Create a shareable professional profile card.
+
+Display:
+
+**YODOCTO**
+
+**Dr. Amit Kumar**
+
+Healthcare Professional
+
+**Career Score: 86/100**
+
+Skills:
+
+* Emergency Care
+* Clinical Practice
+* Leadership
+* Public Health
+
+Open to:
+
+**Jobs | On-call | AI | Career Opportunities**
+
+Buttons:
+
+* View Yodocto Profile
+* Share on WhatsApp
+* Share on LinkedIn
+* Copy Profile Link
+* Download Profile Card
+
+Privacy settings must control what is publicly visible.
+
+---
+
+# 10. CAREER SCORE
+
+Create an AI-powered score from:
+
+**0–100**
+
+Potential factors:
+
+* Profile completeness
+* Education
+* Relevant experience
+* Skills
+* Certifications
+* Career goals
+* Achievements
+* CV quality
+* Profile clarity
+
+Do not represent this as:
+
+* Regulatory assessment
+* Government assessment
+* Clinical competency assessment
+* Professional licensing assessment
+
+Label:
+
+**Yodocto Career Score — an AI-powered career profile indicator.**
+
+Example:
+
+**Your Career Score**
+
+**86/100**
+
+### Strengths
+
+* Strong clinical experience
+* Good certification profile
+* Relevant skills
+
+### Improve your score
+
+* Add recent experience
+* Add certifications
+* Add 3 relevant skills
+* Complete career preferences
+
+Every score must generate actionable recommendations.
+
+Avoid creating a false impression of professional competence.
+
+---
+
+# 11. AI CAREER ASSISTANT
+
+Create a dedicated AI career assistant.
+
+Greeting:
+
+**Hi Amit 👋 I'm your Yodocto AI Career Assistant.**
+
+It can help with:
+
+* Career planning
+* Profile improvement
+* CV improvement
+* Interview preparation
+* Career paths
+* Skills
+* Learning
+* Opportunity discovery
+* Healthcare AI careers
+* Management careers
+* Research careers
+* Job matching
+
+Suggested prompts:
+
+* What healthcare jobs should I target?
+* How can I improve my profile?
+* What skills should I learn?
+* Which career path suits my experience?
+* How can I move into healthcare AI?
+* How can I improve my CV?
+* What opportunities match my profile?
+* Should I consider management?
+* What certifications could strengthen my profile?
+* Help me prepare for an interview.
+
+IMPORTANT:
+
+The career assistant must clearly distinguish:
+
+**Career guidance ≠ clinical advice.**
+
+Do not provide diagnosis or treatment recommendations through the career assistant.
+
+---
+
+# 12. CAREER PASSPORT
+
+Create:
+
+# My Career Passport
+
+This becomes the user's long-term professional record.
+
+Sections:
+
+### Personal
+
+* Name
+* Profession
+* Location
+
+### Education
+
+* Degree
+* Institution
+* Year
+
+### Experience
+
+* Employer
+* Role
+* Dates
+* Responsibilities
+
+### Skills
+
+* Clinical
+* Technical
+* Leadership
+* Digital
+* AI
+
+### Certifications
+
+* Certificate
+* Issuing organisation
+* Date
+* Expiry
+
+### Achievements
+
+* Awards
+* Projects
+* Publications
+
+### Career Preferences
+
+* Job type
+* Location
+* Salary preference
+* Availability
+* Work preferences
+
+### Learning
+
+* Courses
+* Recommended skills
+* Completed learning
+
+Users should continuously update this passport.
+
+---
+
+# 13. CAREER RADAR
+
+Create:
+
+# My Career Radar
+
+This is a core retention feature.
+
+Show:
+
+### Jobs
+
+Matching jobs.
+
+### On-call
+
+Flexible opportunities.
+
+### AI / Health-Tech
+
+Emerging roles.
+
+### Skills
+
+Skills that increase opportunity potential.
+
+### Learning
+
+Recommended courses.
+
+### Career Paths
+
+Potential career directions.
+
+### Upcoming Opportunities
+
+Potential future opportunities.
+
+CRITICAL:
+
+Never show an empty screen saying:
+
+**No jobs found.**
+
+Instead:
+
+**No strong job matches right now.**
+
+Then show:
+
+* Skills you can improve
+* Career paths to explore
+* Recommended learning
+* AI/health-tech opportunities
+* Profile improvements
+* Job alerts
+
+This makes Yodocto useful even with zero jobs.
+
+---
+
+# 14. JOB MARKETPLACE
+
+Support:
+
+* Full-time
+* Part-time
+* Locum
+* On-call
+* Flexible shifts
+* Internships
+* Apprenticeships
+* Government opportunities
+* Remote healthcare roles
+* Healthcare AI roles
+
+Job search filters:
+
+* Profession
+* Specialty
+* Location
+* Distance
+* Salary
+* Experience
+* Qualification
+* Shift type
+* Employer type
+* Remote/hybrid/on-site
+
+---
+
+# 15. JOB MATCHING
+
+Generate explainable matching.
+
+Example:
+
+**92% Match**
+
+Reasons:
+
+✓ Relevant profession
+✓ Required experience
+✓ Location preference
+✓ Skills
+✓ Availability
+
+Never use protected or inappropriate characteristics for matching.
+
+Do not make discriminatory inferences.
+
+Make matching explainable.
+
+---
+
+# 16. JOB ALERTS
+
+Allow personalised alerts.
+
+Examples:
+
+* Doctor jobs in Delhi
+* Nurse jobs in Mumbai
+* Pharmacist jobs in Bengaluru
+* Physiotherapist jobs in Pune
+* On-call healthcare opportunities
+* Healthcare AI jobs
+* Remote healthcare opportunities
+
+Channels:
+
+* Push
+* Email
+* WhatsApp where appropriate
+* In-app
+
+Allow users to control notification frequency.
+
+---
+
+# 17. OPEN TO OPPORTUNITIES
+
+Create a prominent profile status:
+
+### 🟢 Open to opportunities
+
+### 🟡 Open to selected opportunities
+
+### 🔴 Not currently looking
+
+Allow selection of:
+
+* Jobs
+* Locum
+* On-call
+* Remote
+* AI / Health-tech
+* Contract
+* Part-time
+* Full-time
+
+This should feed employer matching.
+
+---
+
+# 18. REFERRAL ENGINE
+
+After profile completion:
+
+**Help build India's healthcare professional community.**
+
+CTA:
+
+**Invite 5 Healthcare Professionals**
+
+Generate referral link.
+
+Track:
+
+* Invites
+* Clicks
+* Registrations
+* Completed profiles
+* Active referrals
+
+Potential rewards:
+
+* Founding Member badge
+* Premium AI features
+* Career report
+* Profile review
+* Recognition
+
+Create referral leaderboard.
+
+Design anti-abuse protections.
+
+---
+
+# 19. FOUNDING MEMBER PROGRAMME
+
+Create:
+
+# Yodocto Founding Healthcare Community
+
+Milestones:
+
+* Founding 1K
+* Founding 10K
+* Founding 50K
+
+Example:
+
+**Founding Member #001234**
+
+Create digital badge and profile recognition.
+
+Do not use artificial scarcity or misleading claims.
+
+---
+
+# 20. VERIFICATION
+
+Create verification levels.
+
+### Basic Profile
+
+Phone/email verified.
+
+### Professional Profile
+
+Additional information reviewed.
+
+### Verified Professional
+
+Credentials verified through an appropriate process.
+
+Never claim:
+
+* Government verification
+* Regulator verification
+* ABDM verification
+* Official credential verification
+
+unless an actual authorised process has occurred.
+
+Always display verification status clearly.
+
+---
+
+# 21. PROFESSIONAL COMMUNITY
+
+Create profession-specific communities:
+
+* Yodocto Doctors
+* Yodocto Nurses
+* Yodocto Pharmacists
+* Yodocto Physiotherapists
+* Yodocto Dentists
+* Yodocto Allied Healthcare
+* Yodocto Paramedics
+* Yodocto Healthcare AI
+* Yodocto Healthcare Students
+
+Content:
+
+* Career advice
+* Jobs
+* On-call opportunities
+* AI career news
+* Skills
+* Courses
+* Interviews
+* Healthcare trends
+
+Implement:
+
+* Moderation
+* Reporting
+* Spam detection
+* Content policies
+* Admin moderation
+* User blocking
+
+---
+
+# 22. EMPLOYER PLATFORM
+
+Employer headline:
+
+**Find the Healthcare Professionals You Need.**
+
+Employer onboarding:
+
+* Organisation details
+* Organisation type
+* Location
+* Verification
+* Authorised representative
+* Contact details
+
+Features:
+
+* Employer profile
+* Job posting
+* On-call posting
+* Candidate search
+* AI matching
+* Applications
+* Interview scheduling
+* Messaging
+* Recruitment analytics
+* Workforce dashboard
+
+Never expose private candidate data without appropriate consent.
+
+---
+
+# 23. AI RECRUITMENT ASSISTANT
+
+Employer AI features:
+
+* Candidate matching
+* Shortlisting assistance
+* Profile comparison
+* Job fit analysis
+* Recruitment insights
+* Interview recommendations
+
+AI must assist rather than make opaque final hiring decisions.
+
+Keep recommendations explainable.
+
+Avoid discriminatory attributes.
+
+---
+
+# 24. LEARNING PLATFORM
+
+Create:
+
+* CPD courses
+* Medical courses
+* Healthcare certifications
+* Clinical skills
+* Public health
+* Healthcare AI
+* Management
+* Research
+* Professional development
+
+AI should recommend learning based on:
+
+* Career goals
+* Existing skills
+* Desired roles
+* Career Radar
+* Skill gaps
+
+Never falsely claim that a course is an accredited qualification unless appropriately accredited.
+
+---
+
+# 25. CAREER GUIDE
+
+Include:
+
+* AI CV Builder
+* Resume analysis
+* Interview preparation
+* Career roadmaps
+* Salary insights
+* Licensing guidance
+* International career guidance
+* Healthcare AI career pathways
+
+All regulatory/licensing information should be reviewed and sourced appropriately.
+
+---
+
+# 26. CONTENT ENGINE
+
+Content pillars:
+
+1. Healthcare Careers
+2. AI in Healthcare
+3. Healthcare Jobs
+4. On-call Opportunities
+5. CV & Interview Tips
+6. Salary/Career Insights
+7. Skills
+8. Certifications
+9. Healthcare Technology
+10. Professional Development
+
+Create:
+
+**Create Once → Publish Everywhere**
+
+One source article should be repurposed into:
+
+* Instagram Reel
+* Instagram carousel
+* LinkedIn post
+* Facebook post
+* X post
+* YouTube Short
+* Blog
+* WhatsApp community post
+* Email
+
+Build an internal content calendar and content management system.
+
+---
+
+# 27. SEO ARCHITECTURE
+
+Create high-quality landing pages for:
+
+* Doctors
+* Nurses
+* Pharmacists
+* Dentists
+* Physiotherapists
+* Paramedics
+* Allied healthcare
+* Healthcare students
+* Healthcare AI
+* Healthcare administrators
+
+City pages:
+
+* Doctor Jobs in Delhi
+* Nurse Jobs in Mumbai
+* Pharmacist Jobs in Bengaluru
+* Physiotherapist Jobs in Pune
+
+Architecture must avoid thin or duplicate SEO pages.
+
+Each landing page must contain genuinely useful:
+
+* Market information
+* Career information
+* Opportunities
+* Skills
+* Salary context where reliable
+* FAQs
+* Relevant content
+* Structured data where appropriate
+
+---
+
+# 28. NATIONAL ACQUISITION ENGINE
+
+Build profession-specific acquisition funnels.
+
+Example:
+
+Healthcare professional discovers Yodocto content.
+
+↓
+
+Landing page.
+
+↓
+
+Create free profile.
+
+↓
+
+AI CV/profile builder.
+
+↓
+
+Career Score.
+
+↓
+
+Career Passport.
+
+↓
+
+Career Radar.
+
+↓
+
+Job alerts.
+
+↓
+
+Referral.
+
+↓
+
+Community.
+
+↓
+
+Repeat visit.
+
+Build separate acquisition journeys for each profession.
+
+Also build city-based acquisition campaigns.
+
+---
+
+# 29. 180-DAY GROWTH PLAN
+
+## DAYS 1–30
+
+Target:
+
+**1,000 profiles**
+
+Focus:
+
+* Product foundation
+* AI Profile Builder
+* Career Score
+* Professional Profile
+* Founder content
+* First ambassadors
+
+## DAYS 31–60
+
+Target:
+
+**5,000 profiles**
+
+Focus:
+
+* Referral engine
+* WhatsApp communities
+* College partnerships
+* Profession-specific content
+* Career Passport
+
+## DAYS 61–90
+
+Target:
+
+**10,000 profiles**
+
+Focus:
+
+* First hospitals
+* First jobs
+* Beta launch
+* AI Career Assistant
+* Career Radar
+* On-call pilot
+
+## DAYS 91–120
+
+Target:
+
+**20,000 profiles**
+
+Focus:
+
+* Public launch
+* PR
+* Creators/influencers
+* Paid acquisition
+* Profession-specific campaigns
+
+## DAYS 121–150
+
+Target:
+
+**35,000 profiles**
+
+Focus:
+
+* City expansion
+* SEO
+* 250+ ambassadors
+* Hospital acquisition
+* Employer marketplace
+
+## DAYS 151–180
+
+Target:
+
+**50,000+ profiles**
+
+Focus:
+
+* National campaign
+* Career Score
+* Healthcare workforce report
+* Referral campaign
+* Employer matching
+* Community growth
+
+Treat these as operating targets, not guaranteed outcomes.
+
+---
+
+# 30. NORTH-STAR METRIC
+
+Do NOT use downloads as the primary success metric.
+
+Primary:
+
+**Weekly Active Healthcare Professionals**
+
+Supporting metrics:
+
+* Completed Yodocto Profiles
+* Monthly Returning Professionals
+* Successful Opportunity Matches
+* Employer activation
+* Application completion
+* Referral-generated profiles
+
+Ultimate strategic metric:
+
+**Percentage of healthcare professionals who maintain a Yodocto professional identity.**
+
+---
+
+# 31. PRODUCT FUNNEL
+
+Track:
+
+Visitor
+
+↓
+
+Registration
+
+↓
+
+Profile Started
+
+↓
+
+Profile Completed
+
+↓
+
+AI Profile Builder Used
+
+↓
+
+Career Score Viewed
+
+↓
+
+Career Passport Created
+
+↓
+
+AI Career Assistant Used
+
+↓
+
+Career Radar Used
+
+↓
+
+Opportunity Viewed
+
+↓
+
+Application
+
+↓
+
+Interview
+
+↓
+
+Successful Match
+
+↓
+
+Return Visit
+
+↓
+
+Referral
+
+Build analytics for every transition.
+
+---
+
+# 32. ADMIN DASHBOARD
+
+### Professionals
+
+* Total registered
+* New registrations
+* Active users
+* Profession breakdown
+* City breakdown
+
+### Profiles
+
+* Completed
+* Incomplete
+* Career Score distribution
+
+### Jobs
+
+* Total
+* Active
+* Applications
+
+### Employers
+
+* Registered
+* Verified
+* Active
+
+### AI
+
+* AI users
+* Conversations
+* Recommendations
+* Profile generations
+* Matching activity
+
+### Growth
+
+* Referral registrations
+* Ambassadors
+* Campaign sources
+
+### Funnel
+
+Visitor →
+
+Registration →
+
+Profile →
+
+Completed Profile →
+
+AI Usage →
+
+Job Search →
+
+Application →
+
+Successful Application
+
+---
+
+# 33. DATABASE ARCHITECTURE
+
+Design a scalable relational database.
+
+Core entities should include:
+
+* Users
+* ProfessionalProfiles
+* ProfessionalInterests
+* Education
+* Experience
+* Skills
+* Certifications
+* Achievements
+* Publications
+* CareerPreferences
+* CareerPassports
+* CareerScores
+* CareerRecommendations
+* AIConversations
+* AIRecommendations
+* CareerRadarItems
+* Jobs
+* JobApplications
+* Shifts
+* Employers
+* EmployerVerification
+* EmployerUsers
+* CandidateMatches
+* JobAlerts
+* Communities
+* CommunityMembers
+* CommunityPosts
+* Referrals
+* ReferralEvents
+* FoundingMembers
+* Badges
+* Courses
+* Enrolments
+* Events
+* Notifications
+* Documents
+* VerificationRecords
+* Reports
+* AuditLogs
+* CampaignSources
+* AnalyticsEvents
+
+Use proper:
+
+* Foreign keys
+* Indexes
+* Constraints
+* Soft deletion where appropriate
+* Audit history
+* Role-based permissions
+
+---
+
+# 34. USER ROLES
+
+At minimum:
+
+### Professional
+
+Can:
+
+* Manage profile
+* Upload documents
+* Manage Career Passport
+* Search opportunities
+* Apply
+* Use AI career tools
+* Join communities
+
+### Employer
+
+Can:
+
+* Manage organisation
+* Post jobs
+* Manage applications
+* Search permitted candidate information
+* Use recruitment tools
+
+### Moderator
+
+Can:
+
+* Moderate community
+* Review reports
+* Manage content
+
+### Verification Admin
+
+Can:
+
+* Review verification submissions
+
+### Content Admin
+
+Can:
+
+* Manage blogs
+* Courses
+* Events
+* Landing pages
+
+### Super Admin
+
+Full system administration.
+
+---
+
+# 35. PRIVACY & SECURITY
+
+Build privacy from Day 1.
+
+Implement:
+
+* Explicit consent
+* Data minimisation
+* Account deletion
+* Data export where applicable
+* Profile visibility controls
+* Public/private profile settings
+* Employer access controls
+* Secure document storage
+* Encryption
+* Secure authentication
+* Audit logs
+* Access logging
+* User reporting
+* Employer verification
+* Professional verification status
+
+Never publicly expose:
+
+* Phone numbers
+* Private email addresses
+* CVs
+* Certificates
+* Identity documents
+
+unless the user explicitly chooses an appropriate sharing option.
+
+For sensitive documents, implement strict access control.
+
+---
+
+# 36. AI GOVERNANCE
+
+Every AI feature must have:
+
+* Clear purpose
+* Input validation
+* Output validation
+* Confidence handling
+* Explainability
+* Human review where necessary
+* Hallucination controls
+* Auditability
+
+AI must not fabricate user information.
+
+AI must not make inappropriate employment decisions based on protected characteristics.
+
+AI-generated information must be identifiable where appropriate.
+
+Career guidance must not be presented as medical advice.
+
+---
+
+# 37. NOTIFICATION ENGINE
+
+Support:
+
+* Job match alerts
+* Career recommendations
+* Profile reminders
+* Career Score improvements
+* Interview reminders
+* Application updates
+* Employer messages
+* Community updates
+* Learning recommendations
+* Referral milestones
+
+Channels:
+
+* Push
+* Email
+* WhatsApp where appropriately configured
+* In-app
+
+Create notification preferences and frequency controls.
+
+---
+
+# 38. LOCATION INTELLIGENCE
+
+Support:
+
+* Location detection with consent
+* City
+* State
+* PIN/postcode where appropriate
+* Distance
+* Nearby jobs
+* Nearby shifts
+* Nearby hospitals
+* Location-based alerts
+
+Do not continuously track precise location unless necessary and explicitly consented to.
+
+---
+
+# 39. MOBILE APP
+
+Build a mobile-first experience.
+
+Recommended architecture:
+
+**Flutter**
+
+Platforms:
+
+* Android
+* iOS
+
+Core navigation:
+
+### Home
+
+* Career Score
+* Career Radar
+* AI Assistant
+* Recommended opportunities
+
+### Career Passport
+
+Professional identity.
+
+### Opportunities
+
+Jobs + shifts.
+
+### AI Career Assistant
+
+AI career support.
+
+### Community
+
+Profession-based communities.
+
+### Profile
+
+Professional profile and settings.
+
+---
+
+# 40. WEBSITE
+
+Create:
+
+### Homepage
+
+Hero + professional value proposition.
+
+### Professionals
+
+Profession-specific landing pages.
+
+### Employers
+
+Employer value proposition.
+
+### Jobs
+
+Searchable opportunity marketplace.
+
+### Career
+
+Career tools and guides.
+
+### Learning
+
+Courses.
+
+### Community
+
+Healthcare professional community.
+
+### Resources
+
+Blog + career content.
+
+### About
+
+Company and mission.
+
+### Trust & Safety
+
+Privacy, verification and safety.
+
+---
+
+# 41. HOMEPAGE STRUCTURE
+
+Build the homepage in this sequence:
+
+1. Hero
+2. "You don't need a job to need Yodocto"
+3. Create profile CTA
+4. AI CV/Profile Builder
+5. Career Score
+6. Career Passport
+7. AI Career Assistant
+8. Career Radar
+9. Jobs and shifts
+10. Learning
+11. Professional community
+12. Employer ecosystem
+13. Trust/privacy
+14. Testimonials once genuine testimonials exist
+15. Final CTA
+
+Do not make the homepage look like Indeed or a generic job board.
+
+---
+
+# 42. DESIGN SYSTEM
+
+Visual direction:
+
+* Premium
+* Healthcare technology
+* Modern
+* Trustworthy
+* Human
+* AI-enabled
+* Professional
+
+Use:
+
+* White space
+* Modern healthcare imagery
+* Blue/teal/green accents
+* Subtle gradients
+* Professional cards
+* AI interface elements
+* Career Score visualisation
+* Opportunity cards
+* Interactive dashboards
+* Mobile-first responsive design
+
+Design inspiration:
+
+**LinkedIn + modern health-tech + AI career coach**
+
+but create a distinctive Yodocto identity.
+
+Do not copy another company's interface.
+
+---
+
+# 43. TECH STACK
+
+Recommended initial architecture:
+
+### Frontend
+
+Web:
+
+**Next.js / React**
+
+Mobile:
+
+**Flutter**
+
+### Backend
+
+**Node.js / TypeScript**
+
+Use a modular architecture.
+
+### Database
+
+**PostgreSQL**
+
+### Authentication
+
+Secure OTP/email/social authentication as appropriate.
+
+### Storage
+
+Encrypted cloud object storage.
+
+### Notifications
+
+Firebase Cloud Messaging for push.
+
+### Maps
+
+Google Maps or an appropriate mapping provider.
+
+### Communication
+
+WhatsApp Business/API integration where appropriate.
+
+### Email
+
+Transactional email provider.
+
+### AI
+
+Use a modular AI service layer so models can be changed without rewriting the platform.
+
+---
+
+# 44. API ARCHITECTURE
+
+Create versioned APIs.
+
+Example:
+
+`/api/v1/auth`
+
+`/api/v1/profiles`
+
+`/api/v1/career-passport`
+
+`/api/v1/career-score`
+
+`/api/v1/ai`
+
+`/api/v1/career-radar`
+
+`/api/v1/jobs`
+
+`/api/v1/shifts`
+
+`/api/v1/applications`
+
+`/api/v1/employers`
+
+`/api/v1/matching`
+
+`/api/v1/learning`
+
+`/api/v1/community`
+
+`/api/v1/referrals`
+
+`/api/v1/notifications`
+
+`/api/v1/admin`
+
+Use:
+
+* Authentication
+* Authorisation
+* Rate limiting
+* Input validation
+* Logging
+* API versioning
+* Error handling
+* Pagination
+* Search
+* Filtering
+
+---
+
+# 45. SEARCH ARCHITECTURE
+
+Build search across:
+
+* Professionals
+* Jobs
+* Employers
+* Courses
+* Content
+* Communities
+
+Use PostgreSQL search initially if appropriate.
+
+Design the architecture so a dedicated search engine can be introduced as scale increases.
+
+---
+
+# 46. MATCHING ENGINE
+
+Start with deterministic and explainable matching.
+
+Inputs:
+
+* Profession
+* Skills
+* Experience
+* Location
+* Availability
+* Career interests
+* Job requirements
+
+Generate:
+
+**Match percentage**
+
+and:
+
+**Why this matches you**
+
+Later introduce machine-learning ranking after sufficient quality data exists.
+
+Do not begin with a black-box AI system when deterministic rules can provide a safer MVP.
+
+---
+
+# 47. CAREER RECOMMENDATION ENGINE
+
+Generate recommendations such as:
+
+**Your next career opportunity may improve if you add:**
+
+* Skill X
+* Certification Y
+* Experience Z
+
+Potential pathways:
+
+Current role
+
+↓
+
+Skill gap
+
+↓
+
+Learning
+
+↓
+
+Profile improvement
+
+↓
+
+Target role
+
+↓
+
+Opportunity
+
+Create a transparent explanation for every recommendation.
+
+---
+
+# 48. ZERO-JOB EXPERIENCE
+
+This is a mandatory product requirement.
+
+If there are no relevant jobs:
+
+Show:
+
+**No strong job matches right now.**
+
+Then:
+
+### Improve your profile
+
+"Your profile is 72% complete."
+
+### Build your skills
+
+"These 3 skills appear frequently in your target career."
+
+### Explore career paths
+
+"Consider these healthcare career options."
+
+### Learn
+
+"Recommended courses based on your goals."
+
+### Healthcare AI
+
+"Explore emerging healthcare technology roles."
+
+### Alerts
+
+"Turn on alerts and we'll notify you when suitable opportunities appear."
+
+The page must remain useful.
+
+---
+
+# 49. EMPTY-STATE DESIGN
+
+Never use dead-end empty states.
+
+Every empty state should contain:
+
+1. Explanation
+2. Alternative value
+3. Recommended action
+4. CTA
+
+Example:
+
+No jobs →
+
+**No strong matches today.**
+
+Alternative:
+
+**Here are 4 ways to strengthen your career profile while you wait.**
+
+---
+
+# 50. GAMIFICATION
+
+Use meaningful progress rather than addictive mechanics.
+
+Examples:
+
+* Profile completion
+* Career Score improvement
+* Passport completion
+* Skills added
+* Certifications added
+* Learning milestones
+* Referral milestones
+* Founding Member status
+
+Avoid manipulative dark patterns.
+
+---
+
+# 51. MONETISATION
+
+Potential revenue streams:
+
+### Employers
+
+* Subscription
+* Premium job posting
+* Featured jobs
+* Candidate matching
+* Recruitment tools
+* AI hiring tools
+* Enterprise workforce analytics
+
+### Professionals
+
+Potential optional:
+
+* Premium AI tools
+* Advanced career reports
+* CV services
+* Premium learning
+* Career coaching features
+
+Basic professional profile should remain free.
+
+### Additional
+
+* Courses
+* Certifications
+* Sponsored content
+* Sponsored opportunities
+* Recruitment services
+
+Do not make the core professional identity dependent on payment.
+
+---
+
+# 52. MVP PRIORITY
+
+Do not attempt to build everything simultaneously.
+
+### MVP 1 — Professional Identity
+
+Build first:
+
+* Registration
+* Profession selector
+* Profile
+* CV upload
+* AI Profile Builder
+* Career Score
+* Career Passport
+* Public profile
+* Profile sharing
+* Career interests
+* Open-to-opportunities status
+
+### MVP 2 — Retention
+
+Then:
+
+* AI Career Assistant
+* Career Radar
+* Job alerts
+* Learning recommendations
+* Referral system
+* Founding Member programme
+
+### MVP 3 — Marketplace
+
+Then:
+
+* Jobs
+* Shifts
+* Applications
+* Employers
+* Employer verification
+* Candidate matching
+
+### MVP 4 — Community
+
+Then:
+
+* Profession communities
+* Content
+* Events
+* Moderation
+
+### MVP 5 — Advanced AI
+
+Then:
+
+* AI recruitment
+* Advanced recommendations
+* Workforce analytics
+* Predictive opportunity intelligence
+
+---
+
+# 53. DEVELOPMENT REQUIREMENTS
+
+Do not produce a mock-up pretending to be a production product.
+
+Build:
+
+* Real authentication
+* Real database
+* Real APIs
+* Real validation
+* Real file uploads
+* Real permissions
+* Real AI integration
+* Real notifications
+* Real analytics
+* Real admin controls
+* Real error handling
+
+Every feature must have:
+
+* Frontend
+* Backend
+* Database model
+* API
+* Authentication
+* Authorisation
+* Validation
+* Error handling
+* Analytics
+* Admin visibility where appropriate
+
+---
+
+# 54. QUALITY REQUIREMENTS
+
+Before release verify:
+
+### Functional
+
+* Registration works
+* Login works
+* Profile creation works
+* CV upload works
+* AI extraction works
+* Editing works
+* Career Score works
+* Career Passport works
+* Public profile works
+* Privacy settings work
+* Job matching works
+* Alerts work
+* Employer workflows work
+* Admin workflows work
+
+### Security
+
+* Authentication tested
+* Authorisation tested
+* File access tested
+* Sensitive information protected
+* Rate limiting implemented
+* Audit logs implemented
+* Secure secrets management
+* No exposed API keys
+
+### Performance
+
+Target:
+
+* Fast initial page load
+* Mobile performance
+* Optimised images
+* Lazy loading
+* Pagination
+* Caching
+* Database indexes
+* Background processing for AI/file operations
+
+### Accessibility
+
+Target WCAG-conscious design with:
+
+* Keyboard navigation
+* Screen-reader compatibility
+* Sufficient contrast
+* Accessible forms
+* Error messaging
+* Semantic HTML
+
+---
+
+# 55. ANALYTICS
+
+Track events such as:
+
+* signup_started
+* signup_completed
+* profile_started
+* profile_completed
+* cv_uploaded
+* ai_profile_generated
+* ai_profile_accepted
+* career_score_viewed
+* career_passport_created
+* ai_assistant_started
+* career_radar_viewed
+* job_viewed
+* job_saved
+* application_started
+* application_completed
+* alert_created
+* referral_shared
+* referral_registered
+* employer_registered
+* employer_verified
+* job_posted
+* candidate_matched
+* interview_scheduled
+* successful_match
+
+Build dashboards for:
+
+* Acquisition
+* Activation
+* Engagement
+* Retention
+* Revenue
+* Marketplace liquidity
+* AI usage
+
+---
+
+# 56. GROWTH LOOP
+
+Create this core loop:
+
+Healthcare professional joins
+
+↓
+
+Creates profile
+
+↓
+
+Receives Career Score
+
+↓
+
+Shares profile
+
+↓
+
+Friends/colleagues discover Yodocto
+
+↓
+
+New professional registrations
+
+↓
+
+More professional data
+
+↓
+
+Better recommendations
+
+↓
+
+More employers attracted
+
+↓
+
+More opportunities
+
+↓
+
+More professional value
+
+↓
+
+More referrals
+
+↓
+
+Network effect
+
+This should become the long-term Yodocto growth engine.
+
+---
+
+# 57. EMPLOYER LIQUIDITY STRATEGY
+
+Do not wait for thousands of jobs before launching.
+
+Initially acquire employers strategically.
+
+Target:
+
+* Hospitals
+* Clinics
+* Diagnostic centres
+* Nursing homes
+* Health-tech companies
+* Staffing organisations
+
+Allow employers to build profiles even before they post jobs.
+
+Build employer supply alongside professional demand.
+
+---
+
+# 58. FOUNDING COMMUNITY STRATEGY
+
+Recruit early users as:
+
+* Founding Members
+* Profession Ambassadors
+* City Ambassadors
+* Student Ambassadors
+* Healthcare AI Ambassadors
+
+Create referral links and dashboards.
+
+Measure:
+
+* Registrations
+* Completed profiles
+* Referrals
+* Engagement
+* Community activity
+
+---
+
+# 59. CONTENT + SOCIAL GROWTH
+
+Every week generate content around:
+
+* Healthcare career tips
+* Psychology of career decisions
+* Healthcare AI
+* CV mistakes
+* Interview preparation
+* Salary insights
+* Healthcare skills
+* Career transitions
+* Professional development
+* New healthcare opportunities
+
+Create a content pipeline:
+
+**Research → Article → Reel → Carousel → LinkedIn → YouTube Short → Email → WhatsApp**
+
+---
+
+# 60. BRAND MESSAGING RULES
+
+Always communicate:
+
+**Yodocto is not simply a job portal.**
+
+Use:
+
+**AI Career & Workforce Platform**
+
+Use:
+
+**Professional identity**
+
+Use:
+
+**Career Passport**
+
+Use:
+
+**Career Radar**
+
+Use:
+
+**AI Career Assistant**
+
+Use:
+
+**Healthcare workforce network**
+
+Avoid positioning the entire brand around:
+
+"Find a job."
+
+Instead:
+
+**Build your healthcare career. Stay ready for your next opportunity.**
+
+---
+
+# 61. KEY USER JOURNEY
+
+Design this exact journey:
+
+### Discovery
+
+User sees:
+
+**Your Healthcare Career. One Intelligent Platform.**
+
+↓
+
+### Registration
+
+Under 60 seconds.
+
+↓
+
+### AI Profile Builder
+
+Upload CV.
+
+↓
+
+### Profile
+
+AI creates draft.
+
+↓
+
+### Career Score
+
+User receives score.
+
+↓
+
+### Career Passport
+
+User sees professional identity.
+
+↓
+
+### AI Career Assistant
+
+User asks career questions.
+
+↓
+
+### Career Radar
+
+User receives career recommendations.
+
+↓
+
+### Opportunity alerts
+
+User stays connected.
+
+↓
+
+### Community
+
+User participates.
+
+↓
+
+### Referral
+
+User invites colleagues.
+
+↓
+
+### Employer marketplace
+
+Opportunities increase.
+
+---
+
+# 62. PRODUCT SUCCESS TEST
+
+Before launch ask:
+
+### Test 1
+
+If there are zero jobs, does the user still receive value?
+
+If NO → redesign.
+
+### Test 2
+
+Can a healthcare professional create a useful profile in under one minute?
+
+If NO → simplify.
+
+### Test 3
+
+Can a user understand their next career action?
+
+If NO → improve Career Score/AI recommendations.
+
+### Test 4
+
+Can a professional share their Yodocto identity externally?
+
+If NO → improve public profile.
+
+### Test 5
+
+Can an employer understand why a candidate matches?
+
+If NO → improve explainability.
+
+### Test 6
+
+Can the platform grow without a large sales team?
+
+If NO → strengthen referrals, SEO, content and community.
+
+---
+
+# 63. FINAL PRODUCT PHILOSOPHY
+
+Build Yodocto around this sequence:
+
+**IDENTITY → INTELLIGENCE → OPPORTUNITY → COMMUNITY → WORKFORCE**
+
+Not:
+
+**JOBS → APPLICATIONS → EXIT**
+
+Yodocto should become the place where a healthcare professional maintains their:
+
+* Professional identity
+* Career Passport
+* Career Score
+* Skills
+* Certifications
+* Career goals
+* AI career guidance
+* Opportunity preferences
+* Career opportunities
+* Professional network
+
+---
+
+# 64. FINAL BRAND STATEMENT
+
+Use consistently:
+
+> **You don't need to be looking for a job to need Yodocto.**
+>
+> Yodocto is your healthcare career identity, career passport, AI career assistant and gateway to future opportunities.
+
+---
+
+# 65. REQUIRED OUTPUT FROM THE AI/DEVELOPMENT TEAM
+
+Do not respond with only high-level ideas.
+
+Produce the project in implementation-ready stages.
+
+First provide:
+
+1. Complete product architecture
+2. Information architecture
+3. User journeys
+4. UX flow
+5. Page/screen inventory
+6. Database schema
+7. API architecture
+8. Authentication architecture
+9. Role/permission system
+10. AI architecture
+11. Matching architecture
+12. Notification architecture
+13. Admin architecture
+14. Analytics architecture
+15. SEO architecture
+16. Growth architecture
+17. Security/privacy architecture
+18. MVP roadmap
+19. 180-day launch roadmap
+20. Testing strategy
+21. Deployment architecture
+22. Monitoring strategy
+23. Cost-control strategy
+24. Scalability strategy
+
+Then implement the platform module-by-module.
+
+For every implementation stage provide:
+
+* What is being built
+* Why it exists
+* User flow
+* UI components
+* Database changes
+* API endpoints
+* Backend logic
+* AI logic where required
+* Permissions
+* Validation
+* Error states
+* Empty states
+* Analytics events
+* Admin controls
+* Security considerations
+* Testing requirements
+* Definition of done
+
+Do not skip edge cases.
+
+Do not create fake functionality.
+
+Do not hard-code data that should come from the database.
+
+Do not expose secrets.
+
+Do not fabricate professional credentials.
+
+Do not claim regulatory verification without an actual authorised verification process.
+
+Do not create thin SEO pages.
+
+Do not make jobs the only reason for returning.
+
+Build Yodocto as a scalable **AI healthcare professional identity + career intelligence + opportunity + workforce network**.
+
+## THE NORTH STAR
+
+**Every healthcare professional should have a Yodocto profile.**
+
+**Yodocto — AI Career & Workforce Platform for Every Healthcare Professional.**

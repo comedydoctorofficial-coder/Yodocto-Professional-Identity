@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Yodocto Professional Identity"
+description = "A healthcare professional identity platform where every professional gets a unique Yodocto ID, shareable profile page, QR code, barcode, resume, and wallet-ready identity card."
+version = "1.0.0"
+id = "artifacts/yodocto"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23823
+
+[services.development]
+run = "pnpm --filter @workspace/yodocto run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/yodocto", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/yodocto/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23823"
+BASE_PATH = "/"
